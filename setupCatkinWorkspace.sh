@@ -3,7 +3,7 @@
 # Usage setupCatkinWorkspace.sh dirName
 
 source /opt/ros/kinetic/setup.bash
-DEFAULTDIR=~/catkin_ws
+DEFAULTDIR=~/drone_ws
 CLDIR="$1"
 if [ ! -z "$CLDIR" ]; then 
  DEFAULTDIR=~/"$CLDIR"
